@@ -6,9 +6,6 @@ def oxford_comma(array)
     array.join 
     
   
-  array.map {|x| x << ","}
-  output = array.join(" ")
-  
   return output 
 end
 
