@@ -8,7 +8,7 @@ def oxford_comma(array)
     array.map {|x| x << ", " }
     array.insert(2, 'and ')
     string_output = array.join
-    string_output.chomp
+    string_output.chop
     end
 end
 
