@@ -2,6 +2,8 @@ def oxford_comma(array)
   if
     array.length < 2
     return array
+    elsif array.length == 2
+    
   
   array.map {|x| x << ","}
   output = array.join(" ")
