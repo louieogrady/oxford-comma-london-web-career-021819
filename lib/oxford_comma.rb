@@ -6,7 +6,7 @@ def oxford_comma(array)
     array.join(' and ')
     elsif array.length == 3
     array.map {|x| x << ", " }
-    array.insert(2, 'and ')
+    array.insert(2, 'and')
     string_output = array.join
     string_output.chop
     end
